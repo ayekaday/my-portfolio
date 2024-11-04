@@ -3,27 +3,28 @@
 import { SectionName } from "@/lib/types";
 import React, { useState, createContext, useContext } from "react";
 
-type ActiveSectionContexProvideProps = {
+type ActiveSectionContextProviderProps = {
   children: React.ReactNode;
 };
 
-type ActiveSectionContexType = {
+type ActiveSectionContextType = {
   activeSection: SectionName;
   setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
   timeOfLastClick: number;
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
-export const ActiveSectionContex =
-  createContext<ActiveSectionContexType | null>(null);
+export const ActiveSectionContext =
+  createContext<ActiveSectionContextType | null>(null);
 
-export default function ActiveSectionContexProvider({
+export default function ActiveSectionContextProvider({
   children,
-}: ActiveSectionContexProvideProps) {
+}: ActiveSectionContextProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("#home");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+
   return (
-    <ActiveSectionContexProvider
+    <ActiveSectionContext.Provider
       value={{
         activeSection,
         setActiveSection,
@@ -32,15 +33,15 @@ export default function ActiveSectionContexProvider({
       }}
     >
       {children}
-    </ActiveSectionContexProvider>
+    </ActiveSectionContext.Provider>
   );
 }
 
 export function useActiveSectionContext() {
-  const context = useContext(ActiveSectionContex);
+  const context = useContext(ActiveSectionContext);
   if (context === null) {
     throw new Error(
-      "useActiveSectionContext must be used within an ActiveSectionContextPropvider"
+      "useActiveSectionContext must be used within an ActiveSectionContextProvider"
     );
   }
   return context;

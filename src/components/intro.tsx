@@ -11,11 +11,9 @@ import { FaGithubSquare } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
 import { section } from "framer-motion/client";
 import { useSectionInView } from "@/lib/useInView";
-import { useActiveSectionContext } from "@/containers/active-section";
 
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext(); //41:30
   return (
     <section
       ref={ref}

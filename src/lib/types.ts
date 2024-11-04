@@ -1,4 +1,4 @@
-import { links } from "../lib/data";
+import { links } from "./data";
 
 export type SectionName = (typeof links)[number]["hash"];
 
