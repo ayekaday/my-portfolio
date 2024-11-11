@@ -1,7 +1,7 @@
 "use client";
 import { skillsData } from "@/lib/data";
 import SectionHeading from "./section-heading";
-import { animate, UseInViewOptions } from "framer-motion";
+// import { animate, UseInViewOptions } from "framer-motion";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/useInView";
 

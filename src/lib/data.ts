@@ -1,4 +1,3 @@
-import { title } from "process";
 import { Link, ProjectInfo } from "./types";
 
 export const links: Link[] = [

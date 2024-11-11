@@ -9,8 +9,6 @@ import { useActiveSectionContext } from "@/containers/active-section";
 
 //Animation
 import { AnimatePresence, motion } from "framer-motion";
-import { div } from "framer-motion/client";
-import { Scale } from "lucide-react";
 
 type HamburgerMenuProps = { links: Link[] };
 

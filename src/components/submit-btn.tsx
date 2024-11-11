@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import React from "react";
+import { useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
 
 type SubmitBtnProps = {

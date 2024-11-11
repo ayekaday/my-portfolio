@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { div } from "framer-motion/client";
 
 interface SwitchProps {
   activeButton: React.ReactNode;

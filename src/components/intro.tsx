@@ -9,7 +9,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 //animations
 import { Fade } from "react-awesome-reveal";
-import { section } from "framer-motion/client";
 import { useSectionInView } from "@/lib/useInView";
 
 export default function Intro() {

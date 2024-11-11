@@ -3,7 +3,6 @@
 import NextLink from "next/link";
 import React from "react";
 import clsx from "clsx";
-import { links } from "@/lib/data";
 import { useActiveSectionContext } from "@/containers/active-section";
 import { Link } from "@/lib/types";
 

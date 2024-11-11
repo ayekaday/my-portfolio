@@ -54,12 +54,12 @@ export default function About() {
               >
                 {" "}
                 <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  "Our mission is to continuously grow and enhance our skills in
-                  web development, creating innovative and user-friendly digital
-                  solutions. We aim to contribute to impactful projects while
-                  learning from experienced developers, building clean,
-                  efficient, and accessible web applications that improve the
-                  user experience."
+                  &quot;Our mission is to continuously grow and enhance our
+                  skills in web development, creating innovative and
+                  user-friendly digital solutions. We aim to contribute to
+                  impactful projects while learning from experienced developers,
+                  building clean, efficient, and accessible web applications
+                  that improve the user experience.&quot;
                 </p>
               </Fade>
               <Fade
@@ -81,12 +81,12 @@ export default function About() {
               >
                 {" "}
                 <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  "Our vision is to become a proficient web developer, dedicated
-                  to building innovative, scalable, and accessible web
+                  &quot;Our vision is to become a proficient web developer,
+                  dedicated to building innovative, scalable, and accessible web
                   applications. We aim to stay at the forefront of emerging
                   technologies, continually improving our skills to deliver
                   impactful digital experiences that empower users and solve
-                  real-world problems."
+                  real-world problems.&quot;
                 </p>
               </Fade>
             </div>
