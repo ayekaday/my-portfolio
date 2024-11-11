@@ -38,7 +38,7 @@ export default function Switch({
         )}
       </AnimatePresence>
       <motion.button
-        className="bg-white w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5rem] border"
+        className="bg-white w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5rem] border-2 rounded-full border-solid border-gray-50 dark:bg-gray-900 dark:border-white flex items-center justify-center"
         variants={switchVariants}
         initial="visible"
         whileHover="hover"

@@ -33,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/girl.png"
+              src="/woman6.png"
               width="480"
               height="480"
               alt="portrait"
@@ -69,8 +69,7 @@ export default function Intro() {
             Grow your business with a new website.
           </span>{" "}
           <p className="text-[14px]">
-            Frontend is full-service creative studio creating beautiful digital
-            experiences and products.
+            Junior developer creating clean, engaging digital experiences.
           </p>
         </h1>
       </Fade>

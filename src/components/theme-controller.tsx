@@ -8,7 +8,7 @@ import { useTheme } from "@/containers/theme-context";
 export default function ThemeSwitch() {
   const { theme, toggleTheme } = useTheme();
   return (
-    <div className="fixed buttom-5 right-5">
+    <div className="fixed bottom-5 right-5 ">
       <Switch
         activeButton={theme === "light" ? <Sun /> : <Moon />}
         hiddenButton={
