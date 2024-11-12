@@ -1,7 +1,6 @@
 import { links } from "@/lib/data";
 import React from "react";
 import Header from "./header";
-import Hamburger from "./hamburger-menu";
 import HamburgerMenu from "./hamburger-menu";
 
 export default function Navbar() {

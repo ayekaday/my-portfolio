@@ -18,7 +18,6 @@ export default function Switch({
     hover: { scale: 1.2 },
     hidden: { scale: 0.5, opacity: 0, y: 50 },
   };
-
   return (
     <div>
       <AnimatePresence>
@@ -30,15 +29,14 @@ export default function Switch({
             exit="hidden"
             variants={switchVariants}
             transition={{ duration: 0.3 }}
-            className="hidden md:flex items-center justify-center w-[2rem] h-[2rem]"
+            className="hiddem md:flex items-center justify-center w-[2rem] h-[2rem]"
           >
-            <p className="text-sm font-semibold">{hiddenButton}</p>
+            <p className="text-sm font-semibold"> {hiddenButton}</p>
           </motion.button>
         )}
       </AnimatePresence>
-
       <motion.button
-        className="bg-white w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5rem] border"
+        className="bg-white w-[3rem] h-[3rem] drop-shadow backdrop-blur-[0.5rem] border-2 rounded-full border-solid border-gray-50 dark:bg-gray-900 dark:border-white flex items-center justify-center"
         variants={switchVariants}
         initial="visible"
         whileHover="hover"
@@ -46,9 +44,8 @@ export default function Switch({
         onMouseLeave={() => setIsHovered(false)}
         onClick={setActiveButton}
       >
-        <p className="font-semibold">{activeButton}</p>
+        <p>{activeButton}</p>
       </motion.button>
     </div>
   );
 }
-//1:23:25

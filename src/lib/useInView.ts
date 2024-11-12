@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { UseInViewOptions } from "framer-motion";
+// import { UseInViewOptions } from "framer-motion";
 import { useActiveSectionContext } from "@/containers/active-section";
 import type { SectionName } from "./types";
 import { useInView } from "react-intersection-observer";

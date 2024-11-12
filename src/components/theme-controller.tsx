@@ -3,12 +3,16 @@
 import React from "react";
 import { Moon, Sun } from "lucide-react";
 import Switch from "./switch";
+import Switch from "./switch";
+import React from "react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "@/containers/theme-context";
 
 export default function ThemeSwitch() {
   const { theme, toggleTheme } = useTheme();
   return (
     <div className="fixed bottom-5 right-5">
+    <div className="fixed bottom-5 right-5 ">
       <Switch
         activeButton={theme === "light" ? <Sun /> : <Moon />}
         hiddenButton={
