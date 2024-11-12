@@ -56,7 +56,7 @@ export default function Skills() {
         >
           <div className="relative w-full h-[40rem]">
             <Image
-              src="/skill3-removebg.png"
+              src="/skill.png"
               alt="Laptop Light Color"
               fill
               style={{ objectFit: "contain" }}

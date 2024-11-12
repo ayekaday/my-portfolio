@@ -35,7 +35,7 @@ export const projectsData: ProjectInfo[] = [
       "React Slick",
       "NextJs",
     ],
-    imageUrl: "/project4.jpg",
+    imageUrl: "/project1.jpg",
     link: "https://www.google.com",
   },
 
@@ -50,7 +50,7 @@ export const projectsData: ProjectInfo[] = [
       "Framer Motion",
       "Page Router",
     ],
-    imageUrl: "/p3.png",
+    imageUrl: "/project2.png",
     link: "https://www.google.com",
   },
 ];

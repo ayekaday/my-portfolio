@@ -104,7 +104,7 @@ export default function About() {
             {/* Right Image */}
 
             <Image
-              src="/happygirl2_-removebg.png"
+              src="/about.png"
               alt="About Me"
               width="600"
               height="600"

@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/woman1-removebg.png"
+              src="/homeWoman.png"
               width="480"
               height="480"
               alt="portrait"

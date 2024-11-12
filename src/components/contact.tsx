@@ -70,7 +70,7 @@ export default function Contact() {
             >
               {/* Right Image */}
               <Image
-                src="/happygirl-removebg1.png"
+                src="/contact.png"
                 alt="About Me"
                 width="600"
                 height="600"
