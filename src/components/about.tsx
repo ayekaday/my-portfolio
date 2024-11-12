@@ -102,8 +102,9 @@ export default function About() {
             triggerOnce={true}
           >
             {/* Right Image */}
+
             <Image
-              src="/happygirl.jpg"
+              src="/happygirl2_-removebg.png"
               alt="About Me"
               width="600"
               height="600"

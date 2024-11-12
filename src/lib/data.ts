@@ -27,11 +27,10 @@ export const projectsData: ProjectInfo[] = [
   {
     title: "My Portfolio",
     description:
-      "This project has been designed to present in a way that is user-friendly.",
+      "My first project is designed to be presented in a user-friendly way.",
     tags: [
-      "ReactJs",
       "TypeScript",
-      "Tailwind",
+      "Tailwind CSS",
       "Framer Motion",
       "React Slick",
       "NextJs",
@@ -41,21 +40,17 @@ export const projectsData: ProjectInfo[] = [
   },
 
   {
-    title: "Snowlake Theme",
-    description: "Abcadsndjfngjjrgjnhj",
+    title: "Scrolling Animation",
+    description:
+      "My second project is focused on scrolling effects and light/dark mode transitions.",
     tags: [
       "ReactNextJs",
       "TypeScript",
-      "Tailwind",
-      "MUI",
-      "Shadcn",
-      "Nodejs",
-      "Express",
-      "NestJS",
-      "MySQL",
-      "PostgreSQL",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Page Router",
     ],
-    imageUrl: "/woman3.png",
+    imageUrl: "/p3.png",
     link: "https://www.google.com",
   },
 ];

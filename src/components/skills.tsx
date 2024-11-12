@@ -1,9 +1,11 @@
 "use client";
 import { skillsData } from "@/lib/data";
+import Image from "next/image";
 import SectionHeading from "./section-heading";
 // import { animate, UseInViewOptions } from "framer-motion";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/useInView";
+import { Fade } from "react-awesome-reveal";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -44,6 +46,24 @@ export default function Skills() {
           </motion.li>
         ))}
       </ul>
+      <div>
+        <Fade
+          direction="right"
+          delay={600}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
+          <div className="relative w-full h-[40rem]">
+            <Image
+              src="/skill3-removebg.png"
+              alt="Laptop Light Color"
+              fill
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+        </Fade>
+      </div>
     </section>
   );
 }
